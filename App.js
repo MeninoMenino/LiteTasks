@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, StatusBar, 
   TouchableOpacity, FlatList } from 'react-native';
 import {Ionicons} from '@expo/vector-icons'
-import { TaskList } from './src/components/TaskList'
+import TaskList from './src/components/TaskList'
 
 export default function App() {
 
@@ -22,10 +22,6 @@ export default function App() {
         <Text style={styles.title}> Tarefas </Text>
       </View>
 
-      {/* 
-      
-      -----TODO: Corrigir a listagem.-----
-
       <FlatList
       marginHorizontal = {10}
       showsHorizontalScrollIndicator={false}
@@ -33,8 +29,6 @@ export default function App() {
       keyExtractor={ (item) => String(item.key)}
       renderItem={ ({item}) => <TaskList data={item}/> }
       />
-
-      */}
 
       <TouchableOpacity style={styles.fab}>
         <Ionicons name="ios-add" size={35} color="#FFF"/>
