@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "tarefas",
-    "slug": "tarefas",
+    "name": "LiteTasks",
+    "slug": "LiteTasks",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#8c8c8c"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,14 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.menino.litetasks",
+      "buildNumber": "1.0.0"
     },
     "androidStatusBar": {
       "barStyle": "light-content",
-      "backgroundColor": "#000"
+      "backgroundColor": "#4d4d4d"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.menino.litetasks",
+      "versionCode": 1
     }
   }
 }

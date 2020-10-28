@@ -128,7 +128,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#171d31'
+    backgroundColor: '#8c8c8c'
   },
   content: {
 
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: 60,
     height: 60,
-    backgroundColor: '#0094ff',
+    backgroundColor: '#4d4d4d',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 30,
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
   },
   modal: {
     flex: 1,
-    backgroundColor: '#171d31'
+    backgroundColor: '#8c8c8c'
   },
   modalHeader: {
     marginLeft: 10,
