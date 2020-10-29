@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     taskDateTime: {
         color: '#121212',
         fontSize: 15,
-        paddingLeft: 8,
-        paddingRight: 20
+        paddingLeft: 20,
+        paddingRight: 8
     }
 });

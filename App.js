@@ -53,10 +53,15 @@ export default function App() {
     let year = new Date().getFullYear();
     let hour = new Date().getHours();
     let minute = new Date().getMinutes();
+    let seconds = new Date().getSeconds();
+    
+    //Variável de data e hora que será mostrada, sem os segundos
     const dateTime = hour + ':' + minute + ' | ' + date + '/' + month + '/' + year;
-
+    //Variável que será a chave da tarefa
+    const dateTimeKey = hour + ':' + minute + ':' + seconds + ' | ' + date + '/' + month + '/' + year;
+    
     const data = {
-      key: input,
+      key: dateTimeKey,
       task: input,
       dateTime: dateTime
     }
