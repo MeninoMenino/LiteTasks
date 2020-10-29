@@ -15,6 +15,9 @@ export default function TaskList({ data, handleDelete }) {
             <View>
                 <Text style={styles.task}>{data.task}</Text>
             </View>
+            <View>
+                <Text style={styles.taskDateTime}>{data.dateTime}</Text>
+            </View>
         </Animatable.View>
     )
 }
@@ -39,6 +42,12 @@ const styles = StyleSheet.create({
     task: {
         color: '#121212',
         fontSize: 20,
+        paddingLeft: 8,
+        paddingRight: 20
+    },
+    taskDateTime: {
+        color: '#121212',
+        fontSize: 15,
         paddingLeft: 8,
         paddingRight: 20
     }

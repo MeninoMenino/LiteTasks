@@ -48,9 +48,17 @@ export default function App() {
     //Confere se o input está vazio
     if(input.trim === '') return ;
 
+    let date = new Date().getDate();
+    let month = new Date().getMonth();
+    let year = new Date().getFullYear();
+    let hour = new Date().getHours();
+    let minute = new Date().getMinutes();
+    const dateTime = hour + ':' + minute + ' | ' + date + '/' + month + '/' + year;
+
     const data = {
       key: input,
-      task: input
+      task: input,
+      dateTime: dateTime
     }
 
     //Adiciona a nova task
