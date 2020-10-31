@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     color: "#121212",
     fontSize: 20,
     paddingLeft: 8,
-    paddingRight: 20,
+    paddingRight: 28,
   },
   taskDateTime: {
     color: "#929693",
